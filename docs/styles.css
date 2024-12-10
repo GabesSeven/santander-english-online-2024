@@ -1,0 +1,73 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f7f7f7;
+}
+
+header {
+    background: #d50000;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Estilo das imagens */
+img {
+    width: 80%; /* Tamanho padrão */
+    max-width: 600px; /* Tamanho máximo para imagens grandes */
+    margin: 20px auto; /* Centralizando e espaçando as imagens */
+    display: block; /* Garantir que as imagens sejam tratadas como blocos */
+    border-radius: 5px; /* Adicionando bordas arredondadas */
+    border: 1px solid #ddd; /* Definindo borda para as imagens */
+}
+
+/* Estilos para textos */
+h1, h2, h3 {
+    color: #d50000;
+}
+
+p, li {
+    color: #333;
+}
+
+a {
+    color: #d50000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ol li, ul li {
+    margin-bottom: 10px;
+}
+
+/* Estilos para seções */
+section {
+    margin-bottom: 30px;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #f2f2f2;
+    color: #666;
+    font-size: 14px;
+    border-top: 1px solid #ddd;
+}
