@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background: #d50000;
+    background: #d50000; /* Cor vermelha para o cabeçalho */
     color: white;
     padding: 15px 0;
     text-align: center;
@@ -27,17 +27,17 @@ header {
 
 /* Estilo das imagens */
 img {
-    width: 80%; /* Tamanho padrão */
-    max-width: 600px; /* Tamanho máximo para imagens grandes */
-    margin: 20px auto; /* Centralizando e espaçando as imagens */
-    display: block; /* Garantir que as imagens sejam tratadas como blocos */
-    border-radius: 5px; /* Adicionando bordas arredondadas */
-    border: 1px solid #ddd; /* Definindo borda para as imagens */
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    display: block;
+    border-radius: 5px;
+    border: 1px solid #ddd;
 }
 
 /* Estilos para textos */
 h1, h2, h3 {
-    color: #d50000;
+    color: #d50000; /* Títulos em vermelho */
 }
 
 p, li {
@@ -45,7 +45,7 @@ p, li {
 }
 
 a {
-    color: #d50000;
+    color: #d50000; /* Links vermelhos */
     text-decoration: none;
 }
 
@@ -60,6 +60,8 @@ ol li, ul li {
 /* Estilos para seções */
 section {
     margin-bottom: 30px;
+    border-left: 5px solid #d50000; /* Barra vermelha à esquerda de cada seção */
+    padding-left: 20px;
 }
 
 /* Rodapé */
